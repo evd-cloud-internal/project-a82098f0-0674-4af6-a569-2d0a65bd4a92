@@ -70,6 +70,16 @@ type: page
   order="sum(total_sales) desc"
 /%}
 
+
+{% line_chart
+  data="demo_daily_orders"
+  x="category"
+  y="sum(total_sales)"
+  y_fmt="usd1m"
+  title="Revenue by Category"
+  order="sum(total_sales) desc"
+/%}
+
 ## Category Performance
 
 {% table
