@@ -80,6 +80,8 @@ type: page
   order="sum(total_sales) desc"
 /%}
 
+Test
+
 ## Category Performance
 
 {% table
